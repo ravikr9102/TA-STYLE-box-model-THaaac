@@ -51,6 +51,8 @@ table {
     background-color: #D18C1D;
     padding: 10px;
     border: 1px solid red;
+    font-size: 36px;
+    text-align: center;
 }
 
 img {
@@ -61,11 +63,12 @@ img {
     margin-top: 50px;
 }
 
-.box{
+.text{
     width: 600px;
     height: 400px;
     background-color: #D18C1D;
     border: 2px dotted black;
+    padding: 24px;
 }
 
 .circle {
@@ -81,6 +84,9 @@ img {
 /* Footer */
 .footer{
     background-color: #A1A1A1;
-    border: 3px dashed blue;
-    text-align: center;
+    border-bottom: 3px dashed blue;
+    text-decoration: none;
+    padding: 16px;
+    font-size: 24px;
+    display: inline-block;
 }
