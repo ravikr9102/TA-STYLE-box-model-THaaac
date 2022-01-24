@@ -47,53 +47,50 @@ table {
     border-spacing: 0;
 }
 /* Custom Styles Only */
+.section{
+    width: 1160px;
+    margin: 0 auto;
+    background-color: aqua;
+    font-size: 0;
+}
 .box{
-    width: 180px;
-    height: 180px;
-    margin-top: 20px;
+    width: 300px;
+    height: 300px;
     background-color: yellow;
-    padding-top: 10px;
-    padding-left: 10px;
+    font-size: 24px;
     display: inline-block;
+    margin: 10px;
+    color: white;
+    padding: 16px;
+    box-sizing: border-box;
 }
-.box1{
-    padding-left: 150px;
-    margin-left: 60px;
-    margin-right: 10px;
-    background-color: crimson;
+.big-box{
+    width: 500px;
 }
-.box2{
-    margin-right: 10px;
-    background-color: darkcyan;
+.google{
+    background-color: #FD5349;
 }
-.box3{
-    background-color: purple;
+.material{
+    background-color: #0F8871;
 }
-.box4{
-    background-color: dodgerblue;
-    margin-left: 60px;
+.doodle{
+    background-color: #B62CFF;
 }
-.box5{
-    padding-left: 150px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: mediumspringgreen;
+.google-plus{
+    background-color: #11C1FD;
 }
-.box6{
-    background-color: olivedrab;
-    padding-left: 10px;
+.design-minutes{
+    background-color: #1ECA80;
 }
-.box7{
-    margin-right: 10px;
-    margin-left: 60px;
-    background-color: yellow;
+.glass-designs{
+    background-color: #29F461;
 }
-.box8{
-    background-color: sienna;
+.html{
+    background-color: #E8FC1F
 }
-.box9{
-    margin-right: 30px;
-    margin-left: 10px;
-    padding-left: 180px;
-    background-color: red;
+.css{
+    background-color: #FE7406;
+}
+.javascript{
+    background-color: #E52F2D;
 }
