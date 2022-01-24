@@ -1,0 +1,99 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* Custom Styles Only */
+.box{
+    width: 180px;
+    height: 180px;
+    margin-top: 20px;
+    background-color: yellow;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: inline-block;
+}
+.box1{
+    padding-left: 150px;
+    margin-left: 60px;
+    margin-right: 10px;
+    background-color: crimson;
+}
+.box2{
+    margin-right: 10px;
+    background-color: darkcyan;
+}
+.box3{
+    background-color: purple;
+}
+.box4{
+    background-color: dodgerblue;
+    margin-left: 60px;
+}
+.box5{
+    padding-left: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: mediumspringgreen;
+}
+.box6{
+    background-color: olivedrab;
+    padding-left: 10px;
+}
+.box7{
+    margin-right: 10px;
+    margin-left: 60px;
+    background-color: yellow;
+}
+.box8{
+    background-color: sienna;
+}
+.box9{
+    margin-right: 30px;
+    margin-left: 10px;
+    padding-left: 180px;
+    background-color: red;
+}
