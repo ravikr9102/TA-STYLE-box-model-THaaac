@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* Custom Styles Only */
+.heading{
+    font-size: 64px;
+    text-align: center;
+    padding: 32px 180px;
+}
+.horizontal{
+    border: 1px dotted black;
+    width: 400px;
+}
+section{
+    padding: 0 auto;
+}
+h2{
+    font-size: 36px;
+    text-align: center;
+    margin: 20px;
+}
+.box{
+    width: 200px;
+    height: 180px;
+    background-color: chocolate;
+    border: 30px solid cyan;
+    outline: 5px solid black;
+    box-shadow: 0 0 0 35px crimson;
+    display: block;
+    margin: 50px auto;
+}
+.circle-container{
+    width: 100%;
+    display: block;
+    margin: 0  auto ;
+    text-align: center;
+}
+.circles{
+    margin: 20px auto;
+}
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color: lightseagreen;
+    border-radius: 50%;
+    display: inline-block;
+} 
+.dot-one{
+    background-color: seagreen;
+}   
+.dot-two{
+    background-color: black;
+}
+.dot-three{
+    background-color: crimson;
+}      
+.text{
+    margin: 0 10px ; 
+    text-transform: capitalize;
+}
+.horizontal-two{
+    border: 1px dotted black;
+    width: 400px;
+    margin-top: 20px;
+}
+p{
+    text-align: center;
+    margin-top: 20px;
+}
+.box-container{
+    width: 600px;
+    height: auto;
+    margin: 50px auto;
+    outline: 1px solid black;
+    font-size: 0px;
+} 
+.children-box{
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    background-color: gray;
+}
+.bordered-container .children-box{
+    border: 1px solid black;
+}
+
+
