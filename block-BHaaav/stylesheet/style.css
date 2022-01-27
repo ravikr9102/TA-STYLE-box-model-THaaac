@@ -1,0 +1,115 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a{
+text-decoration: none;
+color: #fff;
+}
+/* Custom Styles Only */
+
+header{
+    background-color: rgb(58, 58, 59); 
+    padding: 10px 0;
+}
+h1{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+nav{
+    text-align: center;
+    margin: 15px 0 0 0;
+}
+nav a{
+    margin-left: 10px;
+    text-decoration: none;
+}
+section{
+    background-color: rgb(58, 58, 59); 
+    padding: 40px 7% 100px 7%;
+    color: #fff;
+}
+
+h2{
+    font-size: 24px;
+    padding-bottom: 10px;
+    color: white;
+}
+hr{
+    width: 100%;
+    color: #777;
+}
+ p{
+    margin: 20px 0;
+} 
+.two{
+    background-color: blue;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+/* .horizontal{
+    width: 900px;
+    border-style: dotted;
+    border-color: black;
+    padding-left: 40px;
+} */
+.third-section{
+    background-color: darkblue;
+}
+.fourth-section{
+    background-color: blueviolet;
+}
+footer{
+    padding: 20px 7%;
+    background-color: #333;
+    color: #fff;
+
+}
