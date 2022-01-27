@@ -24,42 +24,54 @@
 </head>
 <body>
     <header>
-        <h1 class="heading">The Box Model, Box-sizing & Box-shadow</h1>
+        <h1>The Box Model, Box-sizing & Box-shadow</h1>
     </header>
-    <hr class="horizontal">
+    <hr>
     <main>
         <section>
             <h2>Exercise1</h2>
             <div class="box"></div>
-            <div class= "circle-container">
-                <span class="dot"></span><span class="text">Content</span>
-                <span class="dot dot-one"></span><span class="text">Padding</span>
-                <span class="dot dot-two"></span><span class="text">Border</span>
-                <span class="dot"></span><span class="text">Margin</span>
+            <div class= "marker-container">
+                <div class="marker">
+                <span class="circle content"></span>
+                <span>Content</span> 
+                </div>
+                <div class="marker">
+                <span class="circle padding"></span>
+                <span>Padding</span>
+                </div>
+                <div class="marker">
+                <span class="circle border"></span>
+                <span>Border</span>
+                </div>
+                <div class="marker">
+                <span class="circle margin"></span>
+                <span>Margin</span>
+                </div> 
             </div>    
         </section>
+        <hr>
         <section>
-            <hr class="horizontal-two">
             <h2>Exercise2</h2>
             <p>no border on these boxes.</p>
-             <div class="box-container">
-                 <div class="children-box"></div>
-                 <div class="children-box"></div>
-                 <div class="children-box"></div>
+             <div class="container">
+                 <div class="child-box"></div>
+                 <div class="child-box"></div>
+                 <div class="child-box"></div>
              </div>    
-             <hr class="horizontal-two">
-             <p class="paragraph-two">1px border on these boxes.</p>
-             <div class="box-container bordered-container">
-                <div class="children-box"></div>
-                <div class="children-box"></div>
-                <div class="children-box"></div>
+             <hr>
+             <p>1px border on these boxes.</p>
+             <div class="container">
+                <div class="child-box border"></div>
+                <div class="child-box border"></div>
+                <div class="child-box border"></div>
             </div> 
-            <hr class="horizontal-two">
+            <hr>
             <p>1px border on these boxes but they are in same line.</p>
-            <div class="box-container children-container">
-                <div class="children-box"></div>
-                <div class="children-box"></div>
-                <div class="children-box"></div>
+            <div class="container">
+                <div class="child-box border border-box"></div>
+                <div class="child-box border border-box"></div>
+                <div class="child-box border border-box"></div>
             </div>  
         </section>
     </main>
